@@ -1,12 +1,8 @@
-/*              <--- Shocave --->
- *       A Inteligent Virtual Assistant
- *                 Developed 
- *                    by 
- *              Shohanur Rahman
- *       Email: help.shohan@gmail.com
- *  GitHub: https://www.github.com/shohan3401
- * 
+/*
+ *     <--- Shocave ---> 
+ *    A virtual Assistant
  */
+
 const btn = document.querySelector('.talk');
 const content = document.querySelector('.content');
 
@@ -24,26 +20,31 @@ function wishMe() {
     var hr = day.getHours();
 
     if(hr >= 0 && hr < 12) {
-        speak("Good Morning. How can i help you?");
+        speak("Good Morning");
+        speak("How can i help?");
+
     }
 
     else if(hr == 12) {
-        speak("Good noon. How can i help you?");
+        speak("Good noon");
+        speak("How can i help?");
     }
 
     else if(hr > 12 && hr <= 17) {
-        speak("Good Afternoon. How can i help you?");
+        speak("Good Afternoon");
+        speak("How can i help?");
     }
 
     else {
-        speak("Good Evening. How can i help you?");
+        speak("Good Evening");
+        speak("How can i help?");
     }
 }
 
 window.addEventListener('load', ()=>{
-    speak("as-salāmu ʿalaykum.");
-    speak("I'm a virtual assistant. My name is shocave. I'm developed by Shohanur Rahhman");
-    wishMe();
+    speak("as-salāmu ʿalaykum");
+    speak("I'm a virtual assistant. My name is shocave. I'm developed by Shohanur Rahman");
+    wishMe("");
 })
 
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -63,15 +64,15 @@ btn.addEventListener('click', ()=>{
 function speakThis(message) {
     const speech = new SpeechSynthesisUtterance();
 
-    speech.text = "I didn't understand what you said please try again..";
+    speech.text = "I did not understand what you said please try again";
 
-    if(message.includes('hi') || message.includes('hey') ||) {
-        const finalText = "Hello. How can i help you?";
+    if(message.includes('hi') || message.includes('hello')) {
+        const finalText = "Hello. How can i help";
         speech.text = finalText;
     }
 
     else if(message.includes('how are you')) {
-        const finalText = "I am fine. I think you also fine";
+        const finalText = "I am fine. I think, you also fine";
         speech.text = finalText;
     }
 
@@ -116,17 +117,13 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
-    else if(message.includes('Do you know who is mehedi') || message.includes('Do you know about mehedi') || message.includes('say something about mehedi')){
-        const finalText = "Cool. Yeah. Cool. I've a lot of things to say something about mehedi. First of all, He is your friend. He and you both are from same university even from same section. He is a busy guy. Most of the day he has duty in your campus. I know more information about him. But right now i want to keep myself sient. ";
+
+    else if(message.includes('what is your name') || message.includes('tell me your name')) {
+        const finalText = "My name is shocave";
         speech.text = finalText;
     }
 
-    else if(message.includes('do you know who is monirul islam')) {
-        const finalText = "Of course i know he is your artificial inteligence's teacher. He is friendly and good person.";
-        speech.text = finalText;
-    }
-
-    else if(message.includes('open google') || message.includes('search google') || message.includes('search on google')) {
+    else if(message.includes('open google')) {
         window.open("https://google.com", "_blank");
         const finalText = "Opening Google";
         speech.text = finalText;
@@ -138,31 +135,7 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
-    else if(message.includes('open facebook')) {
-        window.open("https://facebook.com", "_blank");
-        const finalText = "Opening facebook";
-        speech.text = finalText;
-    }
-
-    else if(message.includes('open twitter')) {
-        window.open("https://twitter.com", "_blank");
-        const finalText = "Opening twitter";
-        speech.text = finalText;
-    }
-
-    else if(message.includes('open blc') || message.includes('open vlc') || message.includes('open diu blc') || message.includes('open blanded learning center')) {
-        window.open("https://elearn.daffodilvarsity.edu.bd", "_blank");
-        const finalText = "Opening DIU BLC";
-        speech.text = finalText;
-    }
-
-    else if(message.includes('open codeforces')) {
-        window.open("https://codeforces.com", "_blank");
-        const finalText = "Opening codeforces";
-        speech.text = finalText;
-    }
-
-    else if(message.includes('what is') || message.includes('who is') || message.includes('what are') || message.includes('how to')) {
+    else if(message.includes('what is') || message.includes('who is') || message.includes('what are') || message.includes('how can')) {
         window.open(`https://www.google.com/search?q=${message.replace(" ", "+")}`, "_blank");
         const finalText = "This is what i found on internet regarding " + message;
         speech.text = finalText;
