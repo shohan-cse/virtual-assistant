@@ -22,7 +22,6 @@ function wishMe() {
     if(hr >= 0 && hr < 12) {
         speak("Good Morning");
         speak("How can i help?");
-
     }
 
     else if(hr == 12) {
