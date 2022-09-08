@@ -1,5 +1,5 @@
 # Virtual Assistant
-Assalamu Alaikum (السلام عليكم). This is a research based project that based on Virtual Assistant. In this project python have been used smoothly for better research. As It's an open source project. So, It's open for anyone to download the source code and use. 
+Assalamu Alaikum (السلام عليكم). This is a research based project that based on Virtual Assistant. In this project javascript have been used smoothly for better research. As It's an open source project. So, It's open for anyone to download the source code and use. 
 
 # Installation Process
 01. Download the project from GitHub (https://github.com/shohan3401/Virtual-Assistant.git)
