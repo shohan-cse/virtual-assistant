@@ -16,12 +16,7 @@ Assalamu Alaikum (السلام عليكم). This is a research based project tha
 
 07. Click on the (Go Live) option
 
-08. Your default browser will open and the shocave will come in front of you
-
-09. Then, click on the mic button and start talking with shocave
-
-## If you like my project 
-Don't forget to (Follow) and press the (Star) button. If you want to save this project in your profile, then click on the (Fork) button from the top right side
+08. Your default browthe (Star) button. If you want to save this project in your profile, then click on the (Fork) button from the top right side
 
 ## visit other repository with below link
 https://github.com/shohan-cse?tab=repositories
