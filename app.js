@@ -41,8 +41,8 @@ function wishMe() {
 }
 
 window.addEventListener('load', ()=>{
-    speak("as-salāmu ʿalaykum");
-    speak("I'm a virtual assistant. My name is shocave. I'm developed by Shohanur Rahman");
+    speak("Hi..");
+    speak("I'm a virtual assistant. My name is Shocave. I'm developed by Md Shohanur Rahman");
     wishMe("");
 })
 
@@ -66,7 +66,7 @@ function speakThis(message) {
     speech.text = "I did not understand what you said please try again";
 
     if(message.includes('hi') || message.includes('hello')) {
-        const finalText = "Hello. How can i help";
+        const finalText = "Hello. How can I help";
         speech.text = finalText;
     }
 
@@ -76,7 +76,7 @@ function speakThis(message) {
     }
 
     else if(message.includes('introduce yourself')) {
-        const finalText = "I'm a virtual assistant. My name is shocave. I'm developed by Shohanur Rahman. I can help you that you want. Still I'm under devloping. I think insha allah I'll be more powerful with shohanur rahman. Thank You";
+        const finalText = "I'm a virtual assistant. My name is shocave. I'm developed by Md Shohanur Rahman. I can help you that you want. Still I'm under devloping. I think insha allah I'll be more powerful with shohanur rahman. Thank You";
         speech.text = finalText;
     }
 
