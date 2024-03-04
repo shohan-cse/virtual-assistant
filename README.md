@@ -1,8 +1,8 @@
-# Virtual Assistant (Shocave)
+# 🤖 Virtual Assistant (Shocave)
 Hi, Hope you're doing well!
 This is a research-based project that is based on Virtual Assistant. In this project, javascript have been used smoothly for better research. As It's an open source project. So, It's open for anyone to download the source code and use it. 
 
-# Installation Process
+# 🔥 Installation Process
 01. Download the project from GitHub (https://github.com/shohan-cse/Virtual-Assistant.git)
 
 02. Install Visual Studio Code
@@ -21,22 +21,22 @@ This is a research-based project that is based on Virtual Assistant. In this pro
 
 09. Then, click on the mic button and start talking with Shocave
 
-## If you like my project 
+## 💟 If you like my project 
 Don't forget to (Follow) and press the (Star) button. If you want to save this project in your profile, then click on the (Fork) button from the top right side
 
-## visit other repository with below link
+## 💥 Visit other repositories with below link
 https://github.com/shohan-cse?tab=repositories
 
-# Screenshots
+# 🎬 Screenshots
 
 📌Shocave Screen:
 
 ![Shocave Screen](https://github.com/shohan3401/Virtual-Assistant/blob/main/screenshot/shocave.PNG)
 
 
-## Contact with me
+## 📪 Contact with me
 hi.msrahman@gmail.com
 
-
+## 🍂Support me:
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/shohancse)
 
