@@ -76,7 +76,7 @@ function speakThis(message) {
     }
 
     else if(message.includes('introduce yourself')) {
-        const finalText = "I'm a virtual assistant. My name is shocave. I'm developed by Md Shohanur Rahman. I can help you that you want. Still I'm under devloping. I think insha allah I'll be more powerful with shohanur rahman. Thank You";
+        const finalText = "I'm a virtual assistant. My name is Shocave. I'm developed by Md Shohanur Rahman. I can help you that you want. Still, I'm under devloping. I think, I'll be more powerful with Md shohanur rahman. Thank You";
         speech.text = finalText;
     }
 
